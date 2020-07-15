@@ -1,0 +1,176 @@
+body {
+    background-color: #2c3e50; 
+    padding: 0;
+    margin: 0;
+    z-index: -2;
+    -webkit-font-smoothing: antialiased;
+}
+
+.hello {
+    height: 100vh;
+    font-size: 6em;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat","HelveticaNeue","Helvetica Neue",sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    letter-spacing: 2px;
+}
+
+@media (min-width:1000px) {
+    .hello {
+      font-size: 200px;
+    }
+}
+
+@media (min-width:768px) {
+    .hello {
+      font-size: 150px;
+    }
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    align-items: middle;
+    place-items: center;
+    height: 100vh;
+    z-index: 1;
+}
+
+.containerMainImage {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-repeat: no-repeat;
+}
+
+.mainBackgroundImage {
+    opacity: .5;
+    width: 100%;
+    filter: brightness(20%);
+    margin: none;
+    padding: none;
+    z-index: -1;
+    padding-bottom: 50px;
+}
+
+h1 {
+    color: #F68D2E;
+    font-weight: bold;
+}
+
+.col, .col-sm {
+    font-size: 60px;
+}
+
+.row-cols-4 {
+    padding-top: 50px;
+}
+
+.col-sm {
+    padding-top: 15px;
+}
+
+.colText {
+    font-size: 11px;
+}
+
+.aboutMe {
+    font-family: "Montserrat","HelveticaNeue","Helvetica Neue",sans-serif;
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    text-align: center;
+    font-weight: 100;
+    padding: 50px 5% 50px 5%;
+    z-index: 2;
+}
+
+.aboutMeP {
+    padding-top: 35px;
+}
+
+@media screen and (max-width: 375px){
+    .aboutMeP, .card-text {
+        font-size: 18px }
+}
+
+@media screen and (max-width: 411px){
+    .aboutMeP, .card-text {
+        font-size: 18px }
+}
+
+@media screen and (max-width: 414px){
+    .aboutMeP, .card-text {
+        font-size: 18px }
+}
+
+@media (min-width:1000px) {
+    .card-text {
+      font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .card-text {
+        font-size: 12px }
+}
+
+.card-deck {
+    padding-top: 50px;
+}
+
+#card-deck-2 {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.card {
+    color: gray;
+    font-family: "Rockwell", serif;
+} 
+
+a:hover {
+    color: #F68D2E;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+.card-title {
+    font-weight: 600;
+    line-height: 40px;
+}
+
+hr {
+    width: 65%;
+    margin-top: 50px;
+    border-top: 1px solid #F68D2E;
+}
+
+
+.footerInfo {
+    color: #bdc3c7;
+    font-family: "Montserrat","HelveticaNeue","Helvetica Neue",sans-serif;
+    text-align: center;
+    font-weight: 100;
+    text-decoration: none;
+    font-size: 10px;
+    padding-top: 4px;
+    text-rendering: optimizeLegibility;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
