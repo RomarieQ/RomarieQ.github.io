@@ -15,7 +15,7 @@
 </head>
 <body>
 
-<!-- <div class="container"> -->
+
     <div class="containerMainImage">
         <img class="mainBackgroundImage" src="ilya-pavlov-OqtafYT5kTw-unsplash.jpg" alt="codeImage">
         <section class="hello">
@@ -30,8 +30,10 @@
     <div class="fixed-top">
         <div class="collapse" id="navbarToggleExternalContent">
             <div class="bg-dark p-4">
-            <h5 class="text-white h4">Collapsed content</h5>
-            <span class="text-muted">Toggleable via the navbar brand.</span>
+            <a href="#aboutMe"><h5 class="text-white h5">About Me</h5></a>
+            <a href="#projects"><h5 class="text-white h5">Projects</h5></a>
+            <a href="#skills"><h5 class="text-white h5">Skills</h5></a>
+            <a href="#form"><h5 class="text-white h5">Contact Me</h5></a>
             </div>
         </div>
         <nav class="navbar navbar-dark bg-dark">
@@ -41,13 +43,13 @@
         </nav>
     </div>
 
-    <div class="aboutMe">
+    <div class="aboutMe" id="aboutMe">
         <h1>About Me</h1>
         <p class="aboutMeP">Hello, my name is Romarie, but you can call me &quot;Ro&quot;. I'm an Indianapolis&ndash;based designer and full stack developer. My passion is building responsive websites from the perspective of a &quot;pixel pusher&quot; &lpar;graphic designer&rpar;. Let's work together.</p>
     </div>
 
 
-    <div class="aboutMe">
+    <div class="aboutMe" id="projects">
         <h1>Projects</h1>
         <div class="card-deck">
             <div class="card">
@@ -87,9 +89,9 @@
             </div>
 
             <div class="card">
-                <img src="api.png" class="card-img-top" alt="API Project">
+                <img src="api.png" class="card-img-top" alt="API Challenge">
                 <div class="card-body">
-                    <h5 class="card-title"><a href="" target="blank">API Project</h5></a>
+                    <h5 class="card-title"><a href="https://github.com/RomarieQ/API-Challenge" target="blank">API Challenge</h5></a>
                     <p class="card-text">The link above will guide you to my github account, which will showcase my code for the API Project!</p>
                 </div>
             </div>
@@ -103,28 +105,38 @@
         </div>
     </div>
 
-    <div class="aboutMe">
+    <div class="aboutMe" id="skills">
         <h1>Skills</h1>
         <div class="container">
             <div class="row row-cols-4">
-                <div class="col"><i class="fab fa-html5"></i></div>
-                <div class="col"><i class="fab fa-js-square"></i></div>
-                <div class="col"><i class="fab fa-github-square"></i></div>
-                <div class="col"><i class="fab fa-bootstrap"></i></div>
+                <div class="col"><i class="fab fa-html5"></i><p class="iconText">HTML5/CSS</p></div>
+                <div class="col"><i class="fab fa-js-square"></i><p class="iconText">JavaScript</p></div>
+                <div class="col"><i class="fab fa-github-square"></i><p class="iconText">Github</p></div>
+                <div class="col"><i class="fab fa-bootstrap"></i><p class="iconText">Bootstrap</p></div>
             </div>
 
             <div class="container">
                 <div class="row">
-                    <div class="col-sm"><i class="fab fa-adobe"></i></div>
-                    <div class="col-sm"><i class="fas fa-pen-nib"></i></div>
-                    <div class="col-sm"><i class="fas fa-pencil-alt"></i></div>
+                    <div class="col-sm"><i class="fab fa-adobe"></i><p class="iconText">Adobe Products</p></div>
+                    <div class="col-sm"><i class="fas fa-pen-nib"></i><p class="iconText">Design Methods</p></div>
+                    <div class="col-sm"><i class="fas fa-pencil-alt"></i><p class="iconText">Wireframing</p></div>
                 </div>
             </div>
         </div>
     </div>
 
-    
-
+    <div class="aboutMe" id="form">
+        <h1>Want to reach out? Contact Me:</h1>
+        <form action="https://formspree.io/xjvapwgv" method="POST">
+            <p>
+                <label class="email"><input type="text" placeholder="Your email: " name="_replyto"></label>
+                <br>
+                <label class="textArea"><textarea name="message" placeholder="Your message: "></textarea></label>
+                <br>
+                <button class="formButton" type="submit">Send</button>
+            </p>
+        </form>
+    </div>
 
     <footer class="footer">
     <hr>
@@ -133,7 +145,7 @@
         </div>
 
     </footer>
-<!-- </div> -->
+
 <script defer src="https://use.fontawesome.com/releases/v5.13.1/js/all.js" integrity="sha384-heKROmDHlJdBb+n64p+i+wLplNYUZPaZmp2HZ4J6KCqzmd33FJ8QClrOV3IdHZm5" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

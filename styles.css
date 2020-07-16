@@ -63,25 +63,14 @@ ul {
     padding-bottom: 50px;
 }
 
+.navbar-toggler {
+    background-color: #F68D2E;
+    outline: none;
+}
+
 h1 {
     color: #F68D2E;
     font-weight: bold;
-}
-
-.col, .col-sm {
-    font-size: 60px;
-}
-
-.row-cols-4 {
-    padding-top: 50px;
-}
-
-.col-sm {
-    padding-top: 15px;
-}
-
-.colText {
-    font-size: 11px;
 }
 
 .aboutMe {
@@ -155,12 +144,80 @@ a {
     line-height: 40px;
 }
 
+.col, .col-sm {
+    font-size: 50px;
+}
+
+@media screen and (max-width: 375px){
+    .col, .col-sm {
+        font-size: 40px }
+}
+
+@media screen and (max-width: 411px){
+    .col, .col-sm {
+        font-size: 40px }
+}
+
+.row-cols-4 {
+    padding-top: 50px;
+}
+
+.col-sm {
+    padding-top: 15px;
+}
+
+.iconText {
+    font-size: 16px;
+}
+
+@media screen and (max-width: 375px){
+    .iconText {
+        font-size: 12px }
+}
+
+@media screen and (max-width: 411px){
+    .iconText {
+        font-size: 12px }
+}
+
+#form {
+    font-size: 15px;
+}
+
+label {
+    font-family: "Montserrat","HelveticaNeue","Helvetica Neue",sans-serif;
+    color: white;
+}
+
+.email {
+    padding-top: 50px;
+}
+
+.textArea {
+    margin-top: 12px;
+}
+
+input, textarea {
+    padding: 8px 8px;
+    border-radius: 4px;
+    border: none;
+    outline-color: #F68D2E;
+}
+
+.formButton {
+    font-family: "Montserrat","HelveticaNeue","Helvetica Neue",sans-serif;
+    background-color: #F68D2E;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    margin-top: 10px;
+}
+
 hr {
     width: 65%;
     margin-top: 50px;
     border-top: 1px solid #F68D2E;
 }
-
 
 .footerInfo {
     color: #bdc3c7;
