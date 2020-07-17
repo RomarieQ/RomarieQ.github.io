@@ -68,6 +68,10 @@ ul {
     outline: none;
 }
 
+.fa-file-pdf {
+    color: #F68D2E;
+}
+
 h1 {
     color: #F68D2E;
     font-weight: bold;
